@@ -26,6 +26,58 @@ Developed as part of an AI and Computer Vision Bootcamp to learn gesture recogni
 4. Maps gestures to slide controls.
 5. Uses PyAutoGUI to automate keyboard actions.
 
+## Installation and Execution
+
+### Prerequisites
+
+* Python 3.9 or above
+* Webcam
+* Internet connection (for first-time model download)
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/mahendra1401/gesture-controlled-presentation-system.git
+cd gesture-controlled-presentation-system
+```
+
+### Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Download the MediaPipe Model
+
+```bash
+python setup_models.py
+```
+
+### Step 4: Run the Application
+
+```bash
+python main.py
+```
+
+### Step 5: Use the Gestures
+
+| Gesture       | Action          |
+| ------------- | --------------- |
+| Open Palm     | Next Slide      |
+| Three Fingers | Previous Slide  |
+| Two Fingers   | Start Slideshow |
+| Fist          | Exit Slideshow  |
+
+### Exit Application
+
+Press:
+
+```text
+q
+```
+
+in the webcam window to close the application.
+
 ## Learning Outcomes
 - Computer Vision
 - Gesture Recognition
